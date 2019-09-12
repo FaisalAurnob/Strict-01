@@ -1,0 +1,39 @@
+.banner-section{
+	background-image:url(../images/banner.jpg);
+	background-color: hsl(200, 38%, 27%);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode: soft-light;
+}
+.banner-section .row{
+	min-height: 100vh;
+}
+.about-section{
+	background-image:url(../images/perfect-template.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+}
+.navbar-nav li:last-child a{
+	background-color: #999;
+}
+.heading{
+    text-align: center;
+}
+.heading h1{
+    position: relative;
+    padding-bottom: 10px;
+}
+.heading h1::after{
+	content: "";
+	width: 100px;
+	height: 1px;
+	background: #71B045;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.widgets{}
+.widgets .input-group-text{}
+.widgets .input-group-text{}
